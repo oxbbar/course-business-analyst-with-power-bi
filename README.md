@@ -19,7 +19,8 @@
 
 ## Projects
 
-- [Analysing Shark Attack Data](https://github.com/oxbbar/course-business-analyst-with-power-bi/tree/main/part_1/analysing-shark-data)
+- [Cleaning Shark Attack Data](https://github.com/oxbbar/course-business-analyst-with-power-bi/tree/main/part_1/analysing-shark-data)
+    - Excel, Data Cleaning
 - []()
 
 ## Notebooks
