@@ -19,6 +19,7 @@
 
 ## Projects
 
+- [Analysing Shark Attack Data](https://github.com/oxbbar/course-business-analyst-with-power-bi/tree/main/part_1/analysing-shark-data)
 - []()
 
 ## Notebooks
@@ -31,7 +32,7 @@
 - Part 1.5 - Analyzing Data in Excel
 
 ### Part 2: Fundamentals of SQL
-- Part 2.1 - Introduction to SQL and Databases
+- [Part 2.1 - Introduction to SQL and Databases](https://github.com/oxbbar/course-business-analyst-with-power-bi/blob/main/part_2/p2-1-introduction-to-sql-and-databases.ipynb)
 - Part 2.2 - Filtering and Sorting Data in SQL 
 - Part 2.3 - Summarizing Data in SQL
 - Part 2.4 - Combining Tables in SQL Course
