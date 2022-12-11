@@ -21,7 +21,8 @@
 
 - [Cleaning Shark Attack Data](https://github.com/oxbbar/course-business-analyst-with-power-bi/tree/main/part_1/analysing-shark-data)
     - Excel, Data Cleaning
-- []()
+- [Analysing Customers and Products](https://github.com/oxbbar/course-business-analyst-with-power-bi/tree/main/part_2/analysing-customers-and-products)
+    - SQL, SQLite, DB Browser for SQLite, Data Analysis
 
 ## Notebooks
 
@@ -35,9 +36,9 @@
 ### Part 2: Fundamentals of SQL
 - [Part 2.1 - Introduction to SQL and Databases](https://github.com/oxbbar/course-business-analyst-with-power-bi/blob/main/part_2/p2-1-introduction-to-sql-and-databases.ipynb)
 - [Part 2.2 - Filtering and Sorting Data in SQL](https://github.com/oxbbar/course-business-analyst-with-power-bi/blob/main/part_2/p2-2-filtering-and-sorting-data-in-sql.ipynb)
-- Part 2.3 - Summarizing Data in SQL
-- Part 2.4 - Combining Tables in SQL Course
-- Part 2.5 - SQL Subqueries
+- [Part 2.3 - Summarizing Data in SQL](https://github.com/oxbbar/course-business-analyst-with-power-bi/blob/main/part_2/p2-3-summarizing-data-in-sql.ipynb)
+- [Part 2.4 - Combining Tables in SQL Course](https://github.com/oxbbar/course-business-analyst-with-power-bi/blob/main/part_2/p2-4-combining-tables-in-sql-course.ipynb)
+- [Part 2.5 - SQL Subqueries](https://github.com/oxbbar/course-business-analyst-with-power-bi/blob/main/part_2/p2-5-sql-subqueries.ipynb)
 
 ### Part 3: Analyzing Data with Microsoft Power BI
 - Part 3.1 - Introduction to Data Analysis in Microsoft Power BI
