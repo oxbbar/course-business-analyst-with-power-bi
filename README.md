@@ -21,8 +21,12 @@
 
 - [Cleaning Shark Attack Data](https://github.com/oxbbar/course-business-analyst-with-power-bi/tree/main/part_1/analysing-shark-data)
     - Excel, Data Cleaning
+    
 - [Analysing Customer Sales and Product Data](https://github.com/oxbbar/course-business-analyst-with-power-bi/blob/main/part_2/analysing-customer-sales-and-product-data/analysing-customer-sales-and-product-data.ipynb)
     - SQL, SQLite, DB Browser for SQLite, Data Analysis, Python
+    
+- [Modelling Store Sales Data in PowerBI](https://github.com/oxbbar/course-business-analyst-with-power-bi/blob/main/part_3/modelling-store-sales-data-in-powerbi/)
+    - Power BI, Data Visualisation
 
 ## Notebooks
 
