@@ -36,12 +36,12 @@ The data was imported into Power BI and transformed.
 
 Power BI reports cannot be shared publicly. The following images demonstrate the use of the dashboard to achieve the project goals.
 
-![image](visualisation-of-life-expectancy-and-gdp-variation-over-time-1.jpg)
+![image](images/visualisation-of-life-expectancy-and-gdp-variation-over-time-1.jpg)
 
-![image](visualisation-of-life-expectancy-and-gdp-variation-over-time-2.jpg)
+![image](images/visualisation-of-life-expectancy-and-gdp-variation-over-time-2.jpg)
 
-![image](visualisation-of-life-expectancy-and-gdp-variation-over-time-3.jpg)
+![image](images/visualisation-of-life-expectancy-and-gdp-variation-over-time-3.jpg)
 
-![image](visualisation-of-life-expectancy-and-gdp-variation-over-time-4.jpg)
+![image](images/visualisation-of-life-expectancy-and-gdp-variation-over-time-4.jpg)
 
-![image](visualisation-of-life-expectancy-and-gdp-variation-over-time-5.jpg)
+![image](images/visualisation-of-life-expectancy-and-gdp-variation-over-time-5.jpg)
