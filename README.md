@@ -28,6 +28,9 @@
 - [Modelling Store Sales Data in PowerBI](https://github.com/oxbbar/course-business-analyst-with-power-bi/blob/main/part_3/modelling-store-sales-data-in-powerbi/)
     - Power BI, Data Visualisation
 
+- [Visualising Life Expectancy and GDP Variation Over Time](https://github.com/oxbbar/course-business-analyst-with-power-bi/blob/main/part_3/visualisation-of-life-expectancy-and-gdp-variation-over-time/)
+    - Power BI, Data Visualisation
+
 ## Notebooks
 
 ### Part 1: Introduction to Data Analysis with Excel
