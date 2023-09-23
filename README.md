@@ -21,7 +21,10 @@
 
 - [Cleaning Shark Attack Data](https://github.com/oxbbar/course-business-analyst-with-power-bi/tree/main/part_1/analysing-shark-data)
     - Excel, Data Cleaning
-    
+
+- [Visualizing the Answer to Stock Questions Using Spreadsheet Charts](https://github.com/oxbbar/course-business-analyst-with-power-bi/tree/main/part_1/visualizing-the-answer-to-stock-questions-using-spreadsheet-charts)
+    - Excel, Data Visualisation
+
 - [Analysing Customer Sales and Product Data](https://github.com/oxbbar/course-business-analyst-with-power-bi/blob/main/part_2/analysing-customer-sales-and-product-data/analysing-customer-sales-and-product-data.ipynb)
     - SQL, SQLite, DB Browser for SQLite, Data Analysis, Python
     
