@@ -93,9 +93,9 @@ Our aim is to explore and analyse the data to identify customers who are likely 
 
 ## Two-sample t-tests
 
-![image](images/15-stats1.png)
-![image](images/16-stats2.png)
-![image](images/17-stats3.png)
+![image](images/15-stats1.PNG)
+![image](images/16-stats2.PNG)
+![image](images/17-stats3.PNG)
 
 - Two sample t-tests also support the conclusions made.
 - Since the p-value is much smaller than 0.05 in all but one test, we reject each null hypothesis and conclude that there is a statistically significant mean difference between the groups for each variable.
