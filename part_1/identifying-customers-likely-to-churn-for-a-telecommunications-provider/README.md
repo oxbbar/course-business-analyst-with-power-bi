@@ -30,14 +30,12 @@ Our aim is to explore and analyse the data to identify customers who are likely 
 
 ## Churn rate
 
-![image](images/1-increase-decrease.png)
-
 - The churn rate is calculated as (number of customers who churned/total number of customers) * 100.
 - Of 4250 customers, 598 have churned. This gives a rate of **14.07%**.
 
-## Description Statistics
+## Descriptive Statistics
 
-![image](images/1-descriptive-statistics.png)
+![image](images/1-descriptive-statistics.PNG)
 
 - An overview of the statistics shows the following:
     - There is large variation in the amount of minutes spent on the phone during the day (st.dev: 54.01).
