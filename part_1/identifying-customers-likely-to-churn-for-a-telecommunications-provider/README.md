@@ -11,61 +11,94 @@ Our aim is to explore and analyse the data to identify customers who are likely 
 ## An Overview of the Data
 
 - The dataset has 20 columns, with 9 columns of interest.
-    - ```state``` US state of residence
-    - ```area_code``` Area code
-    - ```voice_mail_plan``` Voicemail plan yes/no
-    - ```number_vmail_messages``` Number of voicemail messages
-    - ```total_day_minutes``` Total minutes of day calls
-    - ```today_day_calls``` Total number of day calls
-    - ```total_day_charge``` Total charge of day calls
-    - ```number_customer_service_calls``` Numbers of customer service calls
-    - ```churn``` Whether the customer has churned or not
+    - ```state```: US state of residence
+    - ```area_code```: Area code
+    - ```voice_mail_plan```: Voicemail plan yes/no
+    - ```number_vmail_messages```: Number of voicemail messages
+    - ```total_day_minutes```: Total minutes of day calls
+    - ```today_day_calls```: Total number of day calls
+    - ```total_day_charge```: Total charge of day calls
+    - ```number_customer_service_calls```: Numbers of customer service calls
+    - ```churn```: Whether the customer has churned or not
 
 ## Cleaning and Preparing the Data
 
-- ```area_code``` Shortened string to just three-digit code
-- ```churn``` Yes/No coverted to 1/0
+- ```area_code```: Shortened string to just three-digit code
+- ```voice_mail_plan```: Yes/No converted to 1/0
+- ```churn```: Yes/No coverted to 1/0
 
 
-## Question 1: How often did Bitcoin increase in value on any given day?
+## Churn rate
 
 ![image](images/1-increase-decrease.png)
 
-- On any given day, the value of Bitcoin is more slightly likely to increase.
+- The churn rate is calculated as (number of customers who churned/total number of customers) * 100.
+- Of 4250 customers, 598 have churned. This gives a rate of **14.07%**.
 
-## Question 2: How do the average monthly closing values compare to one another over the year?
+## Description Statistics
 
-![image](images/2-monthly-closing.png)
+![image](images/1-descriptive-statistics.png)
 
-- The average closing value for each month stays relatively similar until November 2020, where it begins to exponentially increase until April 2021, where it then declines again. 
-- November 2021 had the highest average closing value for each day.
+- An overview of the statistics shows the following:
+    - There is large variation in the amount of minutes spent on the phone during the day (st.dev: 54.01).
+    - There is large variation in the amount of calls made during the day (st.dev: 19.85).
+    - The mean and median for most variables is similar, except for the number of voicemail messages (mean: 7.63; median: 0). This suggests a massive skew in the data.
 
-## Question 3: How frequently are smaller volumes of units traded daily compared to larger ones?
+## Who churns?
 
-![image](images/3-histogram.png)
+![image](images/2-churn-states.png)
 
-- The median number of units traded per day is approximately 31 billion.
-- One trading day saw over 350 billion units traded (February 26 2021). 
+- A PivotTable was created to determine the states accounting for the largest percentage in churn.
+- NJ, MN, TX, MD and WV.
+- In these states, the percentage of customers without a voicemail plan is lower among those that churn than those that don't (e.g, TX; 25% vs 5%).
 
-## Question 4: Were there times during the year when trading was high/low, and do you see any seasonal patterns in trading?
+![image](images/3-voice-mail.png)
 
-![image](images/4-daily-volume.png)
+- The average total day charge is also greater among those that have churned.
+- The average number of voicemail messages is also lower among those that have churned.
 
-- The largest number of units traded was on February 26 2021. 
-- The smallest number of units traded was on April 14th 2019.
-- There does not appear to be any seasonal pattern in trading.
-- Most days see between 20 billion and 100 billion units traded.
+![image](images/4-churn-vs-voicemail.png)
 
-## Questions 5: Is there a relationship between the daily High and Low values for Bitcoin?
+- 86.29% of customers who churned did not have a voicemail plan.
+- Customers who churned were charged more on average for day usage.
+- Customers who churned had an average of 4.30 voicemails, vs. 8.18 for those that did not churn (likely due to the lack of voicemail being setup).
 
-![image](images/5-correlation.png)
+## Histograms
 
-- There is a strong linear relationship between the daily high and daily low.
-- As the R-squared value is very close to 1, almost all the variability in one variable can be explained by the variability in the other.
+![image](images/5-hist1.png)
+![image](images/6-hist2.png)
+![image](images/7-hist3.png)
+![image](images/8-hist4.png)
+![image](images/9-hist5.png)
 
-## Question 6: Do large differences in the daily High and Low coincide with higher or lower trading volumes?
+## Comparison
 
-![image](images/6-combo-chart.png)
+![image](images/10-vm-vs-charge.png)
 
-- There does appear to be a small relationship between the daily High-Lower difference and trading volume. 
-- When there is a larger High-Low difference, there are more units traded.
+- Customers that churned had significantly fewer voicemail messages.
+
+![image](images/11-sc-vs-churn.png)
+
+- Customers that churned had more service calls.
+
+![image](images/12-adm-vs-churn.png)
+
+- Customers that churned spent more minutes on the phone during the day.
+
+![image](images/13-avm-vs-churn.png)
+
+- Customers that churned had approximately half the number of voicemail messages.
+
+![image](images/14-adc-vs-churn.png)
+
+- Customers that churned were charged more.
+
+## Two-sample t-tests
+
+![image](images/15-stats1.png)
+![image](images/16-stats2.png)
+![image](images/17-stats3.png)
+
+- Two sample t-tests also support the conclusions made.
+- Since the p-value is much smaller than 0.05 in all but one test, we reject each null hypothesis and conclude that there is a statistically significant mean difference between the groups for each variable.
+- Since the p-value is not smaller than 0.05 (p-value = 0.47) when testing the total day calls, we do not reject the null hypothesis at the 5% significance level and conclude that there is no statistically significant difference in the total day calls between each group.
