@@ -71,7 +71,7 @@ Our aim is to explore and analyse the data to identify customers who are likely 
 
 ## Comparison
 
-![image](images/10-vm-vs-charge.png)
+![image](images/10-vm-vs-churn.png)
 
 - Customers that churned had significantly fewer voicemail messages.
 
