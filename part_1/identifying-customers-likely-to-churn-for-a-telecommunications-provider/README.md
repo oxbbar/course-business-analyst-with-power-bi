@@ -46,18 +46,18 @@ Our aim is to explore and analyse the data to identify customers who are likely 
 
 ## Who churns?
 
-![image](images/2-churn-states.png)
+![image](images/2-churn-states.PNG)
 
 - A PivotTable was created to determine the states accounting for the largest percentage in churn.
 - NJ, MN, TX, MD and WV.
 - In these states, the percentage of customers without a voicemail plan is lower among those that churn than those that don't (e.g, TX; 25% vs 5%).
 
-![image](images/3-voice-mail.png)
+![image](images/3-voice-mail.PNG)
 
 - The average total day charge is also greater among those that have churned.
 - The average number of voicemail messages is also lower among those that have churned.
 
-![image](images/4-churn-vs-voicemail.png)
+![image](images/4-churn-vs-voicemail.PNG)
 
 - 86.29% of customers who churned did not have a voicemail plan.
 - Customers who churned were charged more on average for day usage.
