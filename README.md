@@ -19,25 +19,28 @@
 
 ## Projects
 
-- [Cleaning Shark Attack Data](https://github.com/oxbbar/course-business-analyst-with-power-bi/tree/main/part_1/analysing-shark-data)
+- [Cleaning Shark Attack Data](https://github.com/oxbbar/course-projects/tree/main/analysing-shark-data)
     - Excel, Data Cleaning
 
-- [Visualizing the Answer to Stock Questions Using Spreadsheet Charts](https://github.com/oxbbar/course-business-analyst-with-power-bi/tree/main/part_1/visualizing-the-answer-to-stock-questions-using-spreadsheet-charts)
+- [Visualizing the Answer to Stock Questions Using Spreadsheet Charts](https://github.com/oxbbar/course-projects/tree/main/visualizing-the-answer-to-stock-questions-using-spreadsheet-charts)
     - Excel, Data Visualisation
 
-- [Identifying Customers Likely to Churn for a Telecommunications Provider](https://github.com/oxbbar/course-business-analyst-with-power-bi/tree/main/part_1/identifying-customers-likely-to-churn-for-a-telecommunications-provider)
+- [Identifying Customers Likely to Churn for a Telecommunications Provider](https://github.com/oxbbar/course-projects/tree/main/identifying-customers-likely-to-churn-for-a-telecommunications-provider)
     - Excel, Data Exploration, Data Visualisation
 
-- [Analysing Retail Sales](https://github.com/oxbbar/course-business-analyst-with-power-bi/tree/main/part_1/analyzing-retail-sales)
+- [Analysing Retail Sales](https://github.com/oxbbar/course-projects/tree/main/analysing-retail-sales)
     - Excel, Data Analysis, Data Visualisation
 
-- [Analysing Customer Sales and Product Data](https://github.com/oxbbar/course-business-analyst-with-power-bi/blob/main/part_2/analysing-customer-sales-and-product-data/analysing-customer-sales-and-product-data.ipynb)
+- [Analysing Customer Sales and Product Data](https://github.com/oxbbar/course-projects/blob/main/analysing-customer-sales-and-product-data/analysing-customer-sales-and-product-data.ipynb)
+    - Analysed sales data, stock levels, product performance to drive customer retention, marketing strategies and inventory.
     - SQL, SQLite, DB Browser for SQLite, Data Analysis, Python, pandas
     
-- [Modelling Store Sales Data in PowerBI](https://github.com/oxbbar/course-business-analyst-with-power-bi/blob/main/part_3/modelling-store-sales-data-in-powerbi/)
+- [Modelling Store Sales Data in PowerBI](https://github.com/oxbbar/course-projects/tree/main/modelling-store-sales-data-in-powerbi)
+    - Visualised sales data using Power BI to determine the biggest global markets and profit summaries for a range of office supplies.
     - Power BI, Data Visualisation
 
-- [Visualising Life Expectancy and GDP Variation Over Time](https://github.com/oxbbar/course-business-analyst-with-power-bi/blob/main/part_3/visualisation-of-life-expectancy-and-gdp-variation-over-time/)
+- [Visualising Life Expectancy and GDP Variation Over Time](https://github.com/oxbbar/course-projects/tree/main/visualisation-of-life-expectancy-and-gdp-variation-over-time)
+    - Visualised life expectancy, population and GDP per capita between regions, countries and income classes from 1800 to 2010 to determine trends.
     - Power BI, Data Visualisation
 
 ## Notebooks
